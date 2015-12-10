@@ -36,6 +36,7 @@ class PlgMediaExample
         $availableFileAdapters[] = $fileAdapterClass;
     }
 }
-
-// @todo: Implement $fileAdapterClass example properly
 ```
+
+Currently (December 2015) there is only one adapter `local` (with class `MediaModelFileAdapterLocal`).
+However this plugin 
