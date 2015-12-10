@@ -1,4 +1,5 @@
 <?php
+
 class PlgMediaExampleFileTypeOpenoffice extends MediaModelFileTypeAbstract implements MediaModelFileTypeInterface
 {
 	/**
@@ -24,7 +25,7 @@ class PlgMediaExampleFileTypeOpenoffice extends MediaModelFileTypeAbstract imple
 	 */
 	public function getProperties($filePath)
 	{
-		$properties = array();
+		$properties            = array();
 		$properties['icon_32'] = 'media/mime-icon-32/openoffice.png';
 		$properties['icon_16'] = 'media/mime-icon-16/openoffice.png';
 

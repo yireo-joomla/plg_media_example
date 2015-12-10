@@ -27,13 +27,13 @@ class PlgMediaExampleFileAdapterFtp extends MediaModelFileAdapterLocal implement
 		$config = JFactory::getConfig();
 
 		$filesystem = new Filesystem(new Adapter([
-			'host' => $config->get('ftp_host'),
+			'host'     => $config->get('ftp_host'),
 			'username' => $config->get('ftp_user'),
 			'password' => $config->get('ftp_pass'),
-			'port' => $config->get('ftp_port'),
-			'root' => $config->get('ftp_root'),
-			'passive' => true,
-			'timeout' => 30,
+			'port'     => $config->get('ftp_port'),
+			'root'     => $config->get('ftp_root'),
+			'passive'  => true,
+			'timeout'  => 30,
 		]));
 
 		return $filesystem;
